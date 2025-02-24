@@ -1,4 +1,4 @@
-# DataTools
+# Datatools
 
 `datatools` es un paquete de Python diseñado para facilitar el análisis y la verificación de datos en archivos CSV. Este paquete es ideal para tareas de limpieza y validación de datos, especialmente cuando se trabaja con múltiples archivos o grandes conjuntos de datos.
 
