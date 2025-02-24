@@ -2,7 +2,7 @@
 
 `datatools` es un paquete de Python diseñado para facilitar el análisis y la verificación de datos en archivos CSV. Este paquete es ideal para tareas de limpieza y validación de datos, especialmente cuando se trabaja con múltiples archivos o grandes conjuntos de datos.
 
-## Tabla de Contenidos
+## Tabla de contenidos
 - [Instalación](#instalación)
 - [Uso](#uso)
   - [Comparar Columnas de Archivos](#comparar-columnas-de-archivos)
@@ -28,7 +28,7 @@ Una vez instalado, puedes importar el paquete y usar sus funciones directamente:
 import datatools as dt
 ```
 
-#### Comparar Columnas de Archivos
+#### Comparar columnas de archivos
 
 La función `compare` lee todos los archivos con una extensión específica en un directorio dado y compara las columnas de cada archivo con las del primer archivo, que se usa como referencia.
 
@@ -41,7 +41,7 @@ dt.compare(path, extension)
     - extension (str): Extensión de los archivos a leer (por ejemplo, 'csv').
     - Retorno: Imprime los resultados de la comparación en la consola.
 
-#### Verificar Tipos de Datos de Columnas
+#### Verificar tipos de datos de columnas
 
 La función `column_type` verifica si los tipos de datos de las columnas en un DataFrame coinciden con los tipos esperados.
 
@@ -54,7 +54,7 @@ dt.column_type(columns_expected_type, data)
     - data (pandas.DataFrame): DataFrame a verificar.
     - Retorno: Imprime discrepancias si los tipos no coinciden.
 
-#### Detectar Filas Duplicadas
+#### Detectar filas duplicadas
 La función `duplicate_rows` verifica si hay filas duplicadas en un DataFrame basado en sus índices.
 
 ```bash
